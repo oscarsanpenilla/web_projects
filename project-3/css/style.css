@@ -63,7 +63,22 @@ img#tecnology {
   margin-top: -4.5rem;
 }
 
-@media (max-width: 768px) {
+#faq div.card {
+  background: #333;
+  color: white;
+}
+
+#faq .card-body {
+  background: rgba(18, 134, 47, 0.431);
+  color: white;
+}
+
+#faq .card .card-header a {
+  text-decoration: none;
+  color: white;
+}
+
+.card @media (max-width: 768px) {
   .nav-item {
     padding-left: 1rem;
   }
