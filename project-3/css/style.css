@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 .nav-item {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -45,6 +48,19 @@
   background: rgba(0, 0, 0, 0.7);
   width: 100%;
   height: 100%;
+}
+
+#about-us-header,
+#services-header {
+  min-height: 200px;
+  background: url("../img/image1.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -360px;
+}
+
+img#tecnology {
+  margin-top: -4.5rem;
 }
 
 @media (max-width: 768px) {
