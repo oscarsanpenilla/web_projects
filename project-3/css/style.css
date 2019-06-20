@@ -50,6 +50,7 @@ body {
   height: 100%;
 }
 
+#blog-header,
 #about-us-header,
 #services-header {
   min-height: 200px;
